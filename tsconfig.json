@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "es2018"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "removeComments": false,
+    "target": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["components/*"]
+    },
+    "noEmit": true
+  },
+  "include": ["src"]
+}
